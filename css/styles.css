@@ -13,11 +13,13 @@ h1, h2, h3, p, ul {
     width: 100%;
     max-width: 1158px;
     padding: 0 15px;
+    margin: 0 auto;
 } 
 
 .header-div {
     display: flex;
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
     justify-content: space-between;
 }
 
