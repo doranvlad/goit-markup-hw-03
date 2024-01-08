@@ -4,6 +4,31 @@ body {
     background-color: #FFFFFF;
 }
 
+h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    padding: auto;
+    padding: 25.5px 0 25.5px 0;
+    justify-content: space-between;
+}
+
+.hd-nav {
+    display: flex;
+}
+.container {
+    max-width: 1158px;
+    padding: 0 15px 0 15px;
+}
+
+img {
+    display: block;
+}
+
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -13,6 +38,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .hd-nav-logo {
@@ -21,14 +47,21 @@ body {
 
 .hd-nav-l {
     list-style-type: none;
+    display: flex;
 }
 .hd-nav-l-i {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    margin-right: 40px;
 }
+
+.hd-nav-l-i:last-child {
+    margin-right: 0;
+}
+
 
 .hd-nav-l-i-a {
     text-decoration: none;
@@ -42,7 +75,14 @@ body {
 
 .hd-add-l {
     list-style-type: none;
+    display: flex;
+    
 }
+
+.hd-add-l-i {
+    margin-left: 40px;
+}
+
 
 .hd-add {
     font-style: normal;
