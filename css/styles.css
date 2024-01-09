@@ -152,19 +152,28 @@ img {
     border: none;
 }
 
+.hero-bt:hover,
+.hero-bt:focus {
+    background-color: #404BBF;
+}
 /* #endregion Hero */
 
-.sect-bt:hover,
-.sect-bt:focus {
-    background-color: #404BBF;
+
+/* #region Benefits */
+
+.sec-two {
+    padding: 120px 0;
 }
 
 .sec-two-htwo {
     color: #2e2f42;
+    display: none;
 }
 
 .sec-two-l {
     list-style-type: none;
+    display: flex;
+    gap: 24px;
 }
 
 .sec-two-l-i-hthree {
@@ -173,6 +182,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .sec-two-l-i-p {
@@ -182,6 +192,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+/* #endregion Benefits */
 
 .sec-three {
     background-color: #F4F4FD;
