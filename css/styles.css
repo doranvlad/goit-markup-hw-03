@@ -120,6 +120,7 @@ img {
 
 .hero {
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 
 .hero-h1 {
@@ -131,18 +132,21 @@ img {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    padding-top: 188px;
+    max-width: 496px;
 }
 
-.hero-bt-div {
+/* .hero-bt-div {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 48px;
     padding-bottom: 188px;
-}
+} */
 
 .hero-bt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     cursor: pointer;
     background-color: #4D5AE5;
     color: #fff;
