@@ -75,6 +75,8 @@ img {
 .hd-nav-l-i-a {
     text-decoration: none;
     color: #2E2F42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .hd-nav-l-i-a:hover, .hd-nav-l-i-a:focus  {
