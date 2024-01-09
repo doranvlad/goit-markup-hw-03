@@ -12,16 +12,19 @@ h1, h2, h3, p, ul {
 .container {
     width: 100%;
     max-width: 1158px;
-    padding: 0 15px 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
 } 
-
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    
+}
 .header-div {
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
     justify-content: space-between;
-    border-bottom: 1px solid #e7e9fc;
 }
 
 .hd-nav {
@@ -53,6 +56,7 @@ img {
 .hd-nav-l {
     list-style-type: none;
     display: flex;
+    gap: 40px;
 }
 
 .hd-nav-l-i {
