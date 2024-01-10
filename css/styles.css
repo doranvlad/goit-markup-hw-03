@@ -277,6 +277,10 @@ img {
 /* #endregion Team */
 
 /* #region Portfolio */
+
+.sec-port {
+    border: 1px solid #e7e9fc;
+}
 .sec-port-htwo {
     color: #2E2F42;
     font-size: 36px;
@@ -293,6 +297,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
 }
 
 .sec-port-l-i {
@@ -307,6 +312,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .sec-port-l-i-p {
